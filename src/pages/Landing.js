@@ -1,10 +1,8 @@
 import React from 'react'
-import Wrapper from '../assets/wrappers/LandingPage';
 import { Logo, ParticlesContainer } from '../components'
 import main from '../assets/images/bg-explosion.png'
 import { Link } from 'react-router-dom';
 import topLeftImage from '../assets/images/top-left-img.png'
-import main2 from '../assets/images/main2.png'
 import avatar from '../assets/images/avatar.png'
 import { motion } from 'framer-motion';
 

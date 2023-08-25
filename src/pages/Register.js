@@ -2,13 +2,10 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import Wrapper from '../assets/wrappers/RegisterPage';
-import { Logo } from '../components';
 import FormRow from '../components/FormRow';
 import { toast } from 'react-toastify';
 import { loginUser, registerUser } from '../features/user/userSlice';
 import logoRegister from '../assets/images/logoRegister.svg'
-import { styled } from 'styled-components';
 
 
 
