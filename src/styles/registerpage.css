@@ -1,0 +1,51 @@
+/* main{
+  display: grid;
+  align-items: center;
+} */
+
+.logo-register {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.38rem;
+}
+.form {
+  max-width: 400px;
+  border-top: 5px solid var(--primary-500);
+}
+
+
+.h3-register {
+  text-align: center;
+}
+.btn-member-register {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-text {
+  margin-right: auto;
+}
+
+
+
+/* .btn {
+  margin-top: 1rem;
+} */
+
+.btn-block-register {
+  margin-top: 1.5rem;
+  margin-left: auto; 
+  display: block; 
+  width: 100px;
+  height: 40px;
+  background-color: #2B2A4C;
+}
+
+.member-btn {
+  background: transparent;
+  border: transparent;
+  color: #0745aa;
+  cursor: pointer;
+  letter-spacing: var(--letterSpacing);
+}
